@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Início</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER FIXO -->
+  <header class="hero">
+
+  <div class="hero-left">
+    <h1 id="boasVindas">
+      Bem-vindo! Clique ao lado para fazer login.
+    </h1>
+
+    <button
+      id="loginBtn"
+      class="header-login-btn"
+      onclick="irParaLogin()">
+      Login
+    </button>
+
+
+    <!-- LOGOUT -->
+    <button
+        id="logoutBtn"
+        class="header-login-btn logout-btn"
+        onclick="logout()"
+        style="display: none;">
+        Logout
+      </button>
+  </div>
+
+  <nav class="menu-hero">
+    <ul class="menu-hero-list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#ideias">Ideias</a></li>
+      <li><a href="#grupo">Grupo</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<!-- HOME -->
+<section id="home" class="page-section home-section">
+
+  <section class="imagens">
+    <img src="./imagens/V701.png" class="img img1" alt="Celular modelo A70 1ª imagem">
+    <img src="./imagens/V70.png" class="img img2" alt="Celular modelo A70 2ª imagem">
+  </section>
+
+</section>
+
+<section id="ideias" class="page-section ideias-section">
+
+  <div class="ideias-premium">
+
+    <!-- TOPO -->
+    <div class="ideias-topo">
+      <span class="tag-ideias">Inovação & Futuro</span>
+      <h2>Ideias</h2>
+      <p>
+        Conceitos tecnológicos modernos desenvolvidos para transformar
+        experiência, inteligência artificial e inovação.
+      </p>
+    </div>
+
+    <!-- CARDS -->
+    <div class="ideias-grid">
+      <!-- CARD CÂMERA -->
+      <a href="camera-contextual.html" class="premium-card">
+        <div class="premium-bg"></div>
+        <div class="premium-content">
+          <span class="premium-badge">IA Mobile</span>
+          <h3>Câmera Contextual com IA</h3>
+          <p>
+            Tecnologia que reconhece automaticamente cenários,
+            interpreta o ambiente e ajusta câmera, lente,
+            iluminação e foco em tempo real.
+          </p>
+
+          <ul class="card-benefits">
+            <li>Reconhecimento inteligente de cena</li>
+            <li>Modo retrato, HDR, macro e noturno</li>
+            <li>Experiência automática e prática</li>
+          </ul>
+
+          <div class="premium-footer">
+            <span>Ver ideia completa</span>
+            <div class="arrow">→</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- GRUPO -->
+<section id="grupo" class="page-section grupo-section">
+  <div class="ideias-text">
+    <h2>Grupo</h2>
+    <p>Gabriela do Rozario: 569663</p>
+    <p>João Vitor de Mico: 569412</p>
+    <p>Milena de Moraes: 570604</p> 
+    <p>Lucas Alberto de Souza Salvador: 568843</p>
+  </div>
+</section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
